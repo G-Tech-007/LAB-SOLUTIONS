@@ -3,6 +3,8 @@ KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "
 export API_KEY=$(gcloud alpha services api-keys get-key-string $KEY_NAME --format="value(keyString)")
 
 
+
+
 cat > request.json <<EOF_END
 {
     "config": {
