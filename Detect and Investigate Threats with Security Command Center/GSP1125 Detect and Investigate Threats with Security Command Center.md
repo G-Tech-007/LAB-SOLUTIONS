@@ -39,7 +39,7 @@ gcloud compute networks subnets update default \
 sleep 30
 gcloud compute ssh --zone "$ZONE" "attacker-instance" --quiet
 ```
-![image](https://github.com/CloudHustlers/LEVEL_2_OCT/assets/88576711/938b472e-9562-4249-bd03-cde85b9a25d5)
+![image](https://github.com/G-Tech-007/LAB-SOLUTIONS/blob/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/Local%20IP.png)
 ### ```Local IP in Task: 5 (STEP 5)```
 ```cmd
 TASK_5_IP=
