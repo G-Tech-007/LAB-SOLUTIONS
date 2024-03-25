@@ -46,10 +46,6 @@ echo "PROJECT_ID_2=$DEVSHELL_PROJECT_ID"
 PROJECT_ID_2=
 ```
 ```cmd
-
-
-### ```Thanks For Watching :)```
-### ```Share, Support, Subscribe!!!``` 
 bq mk --use_legacy_sql=false --view 'SELECT cities.zip_code, cities.city, cities.state_code, customers.last_name, customers.first_name
 FROM `'$DEVSHELL_PROJETC_ID'.customer_dataset.customer_info` as customers
 JOIN `'$PROJECT_ID_2'.data_publisher_dataset.authorized_view` as cities
