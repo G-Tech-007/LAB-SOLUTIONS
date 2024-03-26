@@ -93,7 +93,7 @@ gcloud compute instance-groups managed update fancy-be-mig \
     --health-check fancy-be-hc \
     --initial-delay 300
 ```
-## ```Task 5:-```
+## ```Task 5, 6, 7 and 8:-```
 ```cmd
 gcloud compute http-health-checks create fancy-fe-frontend-hc \
   --request-path / \
