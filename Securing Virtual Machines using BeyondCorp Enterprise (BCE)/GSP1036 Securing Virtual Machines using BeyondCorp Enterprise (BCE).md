@@ -24,9 +24,6 @@ gcloud compute instances create windows-connectivity \
 --scopes https://www.googleapis.com/auth/cloud-platform
 ```
 
-```cmd
-gcloud compute --project=$DEVSHELL_PROJECT_ID firewall-rules create allow-ingress-from-iap --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:22,tcp:3389 --source-ranges=35.235.240.0/20
-```
 ### ```Search Firewall > Create Firewall Rule ```
 > Name ```allow-ingress-from-iap```
 
