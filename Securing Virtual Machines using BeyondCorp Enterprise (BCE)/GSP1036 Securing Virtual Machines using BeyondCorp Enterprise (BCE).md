@@ -27,8 +27,17 @@ gcloud compute instances create windows-connectivity \
 ```cmd
 gcloud compute --project=$DEVSHELL_PROJECT_ID firewall-rules create allow-ingress-from-iap --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:22,tcp:3389 --source-ranges=35.235.240.0/20
 ```
+### ```Search Firewall > Create Firewall Rule ```
+> Name ```allow-ingress-from-iap```
 
-## Search Identity-Aware Proxy > SSH and TCP Resources
+>Target ```All instances in the network```
+
+>Source IPv4 Ranges ```35.235.240.0/20```
+
+>Select TCP and enter ```22, 3389```
+
+
+## ```Search Identity-Aware Proxy > SSH and TCP Resources```
 >Check ```linux-iap```**&**```windows-iap```
 
 >Click ```Add principal```
