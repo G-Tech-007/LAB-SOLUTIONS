@@ -28,15 +28,6 @@ export ADDRESS=$(curl -s http://ipecho.net/plain)/32
 
 gcloud sql instances patch flights --authorized-networks $ADDRESS
 
-read -p "Allowlisted Cloud Shell to access SQL instance. Press Y to accept the change: " -n 1 -r
-echo    # Move to a new line after user input
-
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-    echo "Changes accepted. Task completed successfully."
-else
-    echo "Changes not accepted. Task incomplete."
-fi
-
 
 ```
 
