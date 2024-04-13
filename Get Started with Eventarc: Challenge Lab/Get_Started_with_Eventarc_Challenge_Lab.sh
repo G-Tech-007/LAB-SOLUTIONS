@@ -1,3 +1,6 @@
+gcloud auth list
+
+gcloud config list project
 
 gcloud pubsub topics create $DEVSHELL_PROJECT_ID-topic
 
