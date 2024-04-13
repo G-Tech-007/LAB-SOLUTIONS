@@ -4,8 +4,8 @@ gcloud auth list
 gcloud config list project
 
 gcloud services enable apikeys.googleapis.com
-gcloud alpha services api-keys create --display-name="GTECH" 
-KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=GTECH")
+gcloud alpha services api-keys create --display-name="gtech" 
+KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=gtech")
 API_KEY=$(gcloud alpha services api-keys get-key-string $KEY_NAME --format="value(keyString)")
 
 cat > analyze-request.json <<EOF
