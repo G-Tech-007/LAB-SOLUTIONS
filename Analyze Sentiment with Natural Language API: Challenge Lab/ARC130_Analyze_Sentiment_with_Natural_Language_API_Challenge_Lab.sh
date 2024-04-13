@@ -1,4 +1,8 @@
 
+gcloud auth list
+
+gcloud config list project
+
 gcloud services enable apikeys.googleapis.com
 gcloud alpha services api-keys create --display-name="GTECH" 
 KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=GTECH")
