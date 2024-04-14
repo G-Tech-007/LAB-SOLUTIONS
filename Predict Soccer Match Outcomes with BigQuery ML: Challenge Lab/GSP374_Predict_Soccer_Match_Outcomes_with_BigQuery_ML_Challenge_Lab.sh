@@ -27,8 +27,8 @@ Starting Execution
 
 
 ${RESET}"
-#gcloud auth list
-#gcloud config list project
+gcloud auth list
+gcloud config list project
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
 #export BUCKET_NAME=$(gcloud info --format='value(config.project)')
 #export EMAIL=$(gcloud config get-value core/account)
