@@ -1,11 +1,11 @@
 # ```GSP211: Multiple VPC Networks```
 
-## Run in cloudshell (ZONE from Task 2, Step 3)
+## ```Cloudshell: (ZONE from Task 2, Step 3)```
 ```cmd
 export ZONE=
 ```
-### Get REGION from task 1 point 3 (Create the privatenet network)
-[![](https://fdsfds.png)]()
+### ```Get REGION from task 1 point 3 (Create the privatenet network)```
+[![](https://github.com/G-Tech-007/LAB-SOLUTIONS/blob/main/Multiple%20VPC%20Networks/image.png)]()
 ```cmd
 export REGION2=
 ```
