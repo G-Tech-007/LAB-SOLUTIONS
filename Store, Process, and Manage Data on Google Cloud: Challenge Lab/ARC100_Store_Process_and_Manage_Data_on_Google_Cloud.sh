@@ -171,3 +171,10 @@ done
 wget https://storage.googleapis.com/cloud-training/gsp315/map.jpg 
 
 gsutil cp map.jpg gs://$BUCKET_NAME
+
+sleep 10
+
+wget https://storage.googleapis.com/cloud-training/gsp315/map.jpg 
+
+gsutil cp map.jpg gs://$BUCKET_NAME
+
